@@ -42,15 +42,19 @@ input, #result{
     width:100%;
     padding-block-end:.5em;
 }
-button{
+#btn{
     cursor: pointer;
-    width:100%;
+    width:90%;
     padding:2em;
-    padding-block:1em;
+    padding-block:.75em;
     border:0;
     background-image: linear-gradient(30deg, black,white, black);
     border-radius:30px;
-    margin-block-start: 2em;
+    margin-block-start: 1em;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: black;
 }
 input:focus{
     outline-offset:3px;
